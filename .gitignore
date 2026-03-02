@@ -1,0 +1,15 @@
+# Credentials — NEVER commit to git
+03 - Areas/Credentials & Access/
+
+# Obsidian workspace (changes every session, not useful in git)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp files
+*.tmp
+*.bak

@@ -1,0 +1,128 @@
+---
+type: project
+tags: [project, ecosire, odoo, real-estate, client]
+status: active
+created: 2026-03-02
+start-date: 2026-02-28
+---
+
+# PRJ — Sahara Properties
+
+> Odoo 19 property management system for Sahara Properties.
+> Source: `D:\Ecosire Customer Service\Active Clients\Sahara Properties\`
+
+---
+
+## Overview
+
+| Field              | Value                                           |
+| ------------------ | ----------------------------------------------- |
+| **Client**         | Sahara Properties                               |
+| **Service**        | Custom Odoo 19 ERP + Property Management Module |
+| **Server IP**      | 158.252.2.128                                   |
+| **SSH User**       | bitnami                                         |
+| **PEM Key**        | `sharaproperties.pem`                           |
+| **URL**            | https://saharaproperties.ecosire.com            |
+| **Admin Password** | `G,n7@R4759Dt`                                  |
+| **Started**        | February 28, 2026                               |
+| **Duration**       | ~2 weeks                                        |
+| **Module Cost**    | $500                                            |
+
+---
+
+## Server Details
+
+| Field | Value |
+|-------|-------|
+| Stack | Bitnami Odoo 19 |
+| RAM | 8 GB |
+| Disk | 60 GB |
+| SSL | Let's Encrypt (expires May 29, 2026) |
+| Custom Addons | `/bitnami/odoo/addons` |
+| Core Addons | `/opt/bitnami/odoo/lib/odoo/addons` |
+| Odoo Config | `/opt/bitnami/odoo/conf/odoo.conf` |
+| Odoo Logs | `/opt/bitnami/odoo/log/odoo-server.log` |
+| Venv Pip | `/opt/bitnami/odoo/venv/bin/pip` |
+
+---
+
+## Custom Module: Property Management System
+
+**Technical Name:** `property_management_system`
+
+### Features
+1. **Electricity Recovery Invoicing** — Automated utility billing
+2. **Security Deposit Lifecycle** — Full deposit tracking and management
+3. **Analytic Profitability** — Property-level profit analysis
+4. **PDC Import** — Post-dated cheque bulk import
+5. **Bounced Cheque Handling** — Automated bounce processing
+6. **Maker-Verifier-Approver** — 3-tier approval workflow
+
+### Design Preferences
+- Enterprise-minimal (flat cards, no gradients, no glass-morphism)
+- Primary color: `#714B67` (Odoo purple)
+- 8px grid spacing
+- System fonts (no custom fonts)
+- Left-border accent on KPI cards
+- Mobile-first responsive design
+
+---
+
+## Deployed Modules
+
+| Module | Type | Purpose |
+|--------|------|---------|
+| property_management_system | Custom | Core property management |
+| simplify_access_management | Custom | Simplified user access |
+| advanced_web_domain_widget | 3rd Party | Enhanced domain filters |
+| auto_database_backup | 3rd Party | Automated DB backups (ECOSIRE branded) |
+| private_enterprise | Custom | Enterprise subscription override protection |
+
+---
+
+## Private Enterprise Module
+
+**Technical Name:** `private_enterprise`
+
+Three-layer HTTP interception to block Odoo's phone-home calls:
+
+1. **`requests.Session.request()` monkey-patch** — Blocks ALL Python HTTP calls to 40+ Odoo domains
+2. **`publisher_warranty.contract` override** — AbstractModel `_inherit` override
+3. **`iap_tools.iap_jsonrpc` monkey-patch** — Intercepts IAP service calls
+
+### Blocked Odoo Domains (40+)
+Core: `services.odoo.com`, `www.odoo.com`, `upgrade.odoo.com`
+IAP: `iap.odoo.com`, `iap-services.odoo.com`
+Banking: `odoofin.com`, `www.odoofin.com`
+API Services: `accounts.odoo.com`, `nightly.odoo.com`
+Partner/GeoIP/IoT + 20+ L10n EDI domains
+
+---
+
+## Odoo 19 Lessons Learned
+
+Issues encountered and resolved during this project:
+
+| Issue | Solution |
+|-------|----------|
+| `name_get()` removed in Odoo 19 | Use `_compute_display_name()` |
+| `category_id` removed from `res.groups` | Use `privilege_id` instead |
+| `_sql_constraints` deprecated | Use `models.Constraint()` |
+| `<i>` FA class in kanban needs `title` | Always add `title` attribute |
+| `.o_action_manager` clips overflow | Use `min-height: 100%` not `100vh` |
+| XML data file load order matters | Ensure dependency order in `__manifest__.py` |
+
+---
+
+## Deployment History
+
+- **2026-02-28**: Initial setup — Bitnami Odoo 19, SSL, enterprise modules (662 → 1423), wkhtmltopdf, property management module, SIM + Advanced Web Domain Widget + Auto DB Backup
+
+---
+
+## Related
+
+- [[Ecosire Private Limited]] — Service provider
+- [[Ecosire - Client Portfolio]] — Client list
+- [[Ecosire - Production Servers]] — Server reference
+- [[MOC - Projects]] — Project index
