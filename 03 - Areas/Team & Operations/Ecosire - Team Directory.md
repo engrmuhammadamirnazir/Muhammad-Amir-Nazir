@@ -49,6 +49,10 @@ Autonomous AI team members operating 24/7 via [[OpenClaw Agent Strategy]].
 | Hamza Ali | Senior Odoo Developer | hamzaecosire@gmail.com | /in/hamzaecosire | @hamzaecosire | @hamzaecosire |
 | Kashif Omar | Operations Analyst | kashifecosire@gmail.com | /in/kashifecosire | @kashifecosire | @kashifecosire |
 | Waqar Ahmed | QA & Security Analyst | waqarecosire@gmail.com | /in/waqarecosire | @waqarecosire | @waqarecosire |
+| Bilal Farooq | Accounting & Bookkeeping Specialist | bilalecosire@gmail.com | /in/bilalecosire | @bilalecosire | @bilalecosire |
+| Fatima Malik | Shopify eCommerce Specialist | fatimaecosire@gmail.com | /in/fatimaecosire | @fatimaecosire | @fatimaecosire |
+| Usman Tariq | GoHighLevel CRM Specialist | usmanecosire@gmail.com | /in/usmanecosire | @usmanecosire | @usmanecosire |
+| Nadia Hassan | AI Agent Services Specialist | nadiaecosire@gmail.com | /in/nadiaecosire | @nadiaecosire | @nadiaecosire |
 
 ---
 

@@ -30,8 +30,10 @@ updated: 2026-03-02
 - Odoo Customization & Development
 - Shopify-Odoo Integration ($49-$99/mo)
 - Amazon-Odoo Connector (SP-API)
-- AI-Powered Solutions (OpenClaw)
-- Accounting & Bookkeeping
+- AI Agent Deployment Services (OpenClaw)
+- Accounting & Bookkeeping (Odoo/QB/Xero)
+- GoHighLevel CRM Services (Funnels, Workflows, White-Label SaaS)
+- Shopify eCommerce (Store Setup, Migration, Optimization)
 - POS & Inventory Management
 
 ### Support Plans
@@ -60,7 +62,7 @@ updated: 2026-03-02
 ## Strategy & Marketing
 
 - [[Lead Generation Strategy]] — 4-phase lead gen playbook (16 strategies, priority matrix, revenue projections)
-- [[OpenClaw Agent Strategy]] — 24/7 AI agent swarm for automated lead generation (6 agents, WhatsApp/Telegram/Discord)
+- [[OpenClaw Agent Strategy]] — 24/7 AI agent swarm for automated lead generation (10 agents, WhatsApp/Telegram, 21 skills, 5 service lines)
 - [[Marketplace Strategy]] — R&D expansion roadmap (Tier 1-7 marketplaces)
 - [[MOC - Odovation]] — Client-facing brand
 - [[MOC - SEO & Digital Marketing]] — Content engine and digital presence

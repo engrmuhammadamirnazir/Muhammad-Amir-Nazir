@@ -228,13 +228,17 @@ C:\Users\Amir Nazir\.openclaw\
 │   ├── HEARTBEAT.md                  Heartbeat config
 │   ├── TOOLS.md                      Local tool config (whisper, voice)
 │   ├── USER.md                       Amir's contact info
-│   ├── skills\                       15 custom skills (SKILL.md each)
-│   ├── agents\                       Sub-agent workspaces
-│   │   ├── hamza\                    Hamza Ali (Odoo Dev)
-│   │   ├── saad\                     Saad Raza (BDM)
-│   │   ├── hira\                     Hira Nawaz (Community)
-│   │   ├── kashif\                   Kashif Omar (Ops)
-│   │   └── waqar\                    Waqar Ahmed (QA)
+│   ├── skills\                       21 custom skills (SKILL.md each)
+│   ├── agents\                       Sub-agent workspaces (9 agents)
+│   │   ├── hamza\                    Hamza Ali (Senior Odoo Developer)
+│   │   ├── saad\                     Saad Raza (Business Development Manager)
+│   │   ├── hira\                     Hira Nawaz (Community & Content Manager)
+│   │   ├── kashif\                   Kashif Omar (Operations Analyst)
+│   │   ├── waqar\                    Waqar Ahmed (QA & Security Analyst)
+│   │   ├── bilal\                    Bilal Farooq (Accounting & Bookkeeping)
+│   │   ├── fatima\                   Fatima Malik (Shopify eCommerce)
+│   │   ├── usman\                    Usman Tariq (GoHighLevel CRM)
+│   │   └── nadia\                    Nadia Hassan (AI Agent Services)
 │   ├── secrets\                      Moltbook API keys, credentials
 │   └── memory\                       Daily logs, state files, Moltbook data
 └── gateway.cmd                       Gateway start script

@@ -25,7 +25,7 @@ status: active
 | **Workspace** | `C:\Users\Amir Nazir\.openclaw\workspace` | SOUL.md, IDENTITY.md, AGENTS.md, MEMORY.md |
 | **Max Concurrent** | 4 agents + 8 subagents | Sufficient for initial operations |
 
-### Agent Swarm (6 Agents) — Current Names (Being Rebranded)
+### Agent Swarm (10 Agents) — Fully Operational
 
 | Current Name | New Identity     | ID                 | Current Role                        | Skills           | Initialized               |
 | ------------ | ---------------- | ------------------ | ----------------------------------- | ---------------- | ------------------------- |
@@ -36,7 +36,18 @@ status: active
 | Nizam        | **Kashif Omar**  | `nizam` → `kashif` | Operations & security               | `healthcheck`    | NO (BOOTSTRAP.md present) |
 | Hafiz        | **Waqar Ahmed**  | `hafiz` → `waqar`  | Security & monitoring               | `healthcheck`    | NO (BOOTSTRAP.md present) |
 
-**Status (2026-03-02): ALL 5 sub-agents INITIALIZED.** BOOTSTRAP.md files removed, first-run conversations completed. Each agent has a fully populated workspace with SOUL.md, IDENTITY.md, AGENTS.md, HEARTBEAT.md, TOOLS.md, USER.md, ABOUT-AMIR.md, and a memory/ directory with daily logs.
+**Status (2026-03-02): ALL 9 sub-agents INITIALIZED.** BOOTSTRAP.md files removed, first-run conversations completed. Each agent has a fully populated workspace with SOUL.md, IDENTITY.md, AGENTS.md, HEARTBEAT.md, TOOLS.md, USER.md, ABOUT-AMIR.md, and a memory/ directory with daily logs.
+
+### New Domain Specialists (Added 2026-03-02)
+
+| New Agent | ID | Title | Domain | Skills |
+|-----------|---|-------|--------|--------|
+| **Bilal Farooq** | `bilal` | Accounting & Bookkeeping Specialist | Odoo Accounting, QuickBooks, Xero migration, reconciliation, AR/AP, payroll | `accounting-operations` |
+| **Fatima Malik** | `fatima` | Shopify eCommerce Specialist | Shopify stores, Liquid/Dawn themes, WooCommerce/Magento migration, SEO/CRO, Odoo-Shopify connector | `shopify-ecommerce` |
+| **Usman Tariq** | `usman` | GoHighLevel CRM Specialist | GHL pipelines, funnels, workflows, white-label SaaS, CRM migration from HubSpot/Salesforce/Zoho | `gohighlevel-crm` |
+| **Nadia Hassan** | `nadia` | AI Agent Services Specialist | OpenClaw deployment, custom skills, multi-agent orchestration, industry wrappers, integration consulting | `openclaw-agent-services` |
+
+All 10 agents now have 2 universal skills: `obsidian-second-brain` (vault navigation) and `claude-code-development` (dev tooling).
 
 ### Agent Identity Profiles (New)
 
@@ -48,6 +59,10 @@ status: active
 | Technical | **Hamza Ali** | Senior Odoo Developer | @hamzaecosire | Technical lead at Ecosire. Odoo v14-v19, custom modules, integrations, migrations. |
 | Operations | **Kashif Omar** | Operations Analyst | @kashifecosire | Data and operations at Ecosire. Keeping the pipeline healthy, one report at a time. |
 | Security | **Waqar Ahmed** | QA & Security Analyst | @waqarecosire | Quality and security at Ecosire. Monitoring, compliance, brand protection. |
+| Accounting | **Bilal Farooq** | Accounting & Bookkeeping Specialist | @bilalecosire | Accounting operations at Ecosire. Bookkeeping, reconciliation, financial reporting. |
+| eCommerce | **Fatima Malik** | Shopify eCommerce Specialist | @fatimaecosire | Shopify expert at Ecosire. Store setup, migration, optimization, Odoo integration. |
+| CRM | **Usman Tariq** | GoHighLevel CRM Specialist | @usmanecosire | CRM automation at Ecosire. GoHighLevel pipelines, funnels, workflows, white-label SaaS. |
+| AI Services | **Nadia Hassan** | AI Agent Services Specialist | @nadiaecosire | AI agent architect at Ecosire. Custom agent deployment, orchestration, industry solutions. |
 
 ### Social Media Account Registry (All Platforms)
 
