@@ -199,13 +199,17 @@ Local path: `D:\Development\Ecosire Solutions\{Display Name}\{module_name}\`
 
 ## 5. Claude Code Project Memories
 
+> **Unified backup:** [[Claude Code Unified Memory]] — All 8 project memories consolidated into one Obsidian note (prevents knowledge loss)
+
 | Project | Memory Path | Key Files |
 |---------|------------|-----------|
-| **Dropbox (this session)** | `~\.claude\projects\C--Users-Amir-Nazir-Dropbox\memory\` | MEMORY.md |
+| **Dropbox (this vault)** | `~\.claude\projects\C--Users-Amir-Nazir-Dropbox\memory\` | MEMORY.md |
+| **Home dir** | `~\.claude\projects\C--Users-Amir-Nazir\memory\` | (empty) |
 | **Development** | `~\.claude\projects\D--Development\memory\` | MEMORY.md, environment.md, odoo19_reference.md, odoo_version_diffs.md |
 | **ECOSIRE.COM** | `~\.claude\projects\D--ECOSIRE-COM\memory\` | MEMORY.md, muhammadamir.md, production-server.md, product-pricing-updates.md |
 | **AI Content Automation** | `~\.claude\projects\D--Ecosire-Customer-Service-Active-Clients-Ai-Content-Automation\memory\` | MEMORY.md, agent-runtime.md, auth.md, production.md, scanner.md |
 | **Sahara Properties** | `~\.claude\projects\D--Ecosire-Customer-Service-Active-Clients-Sahara-Properties\memory\` | MEMORY.md |
+| **AI Content Engine (SaaS)** | `~\.claude\projects\D--Ai-Content-Automation-Engine\memory\` | MEMORY.md |
 | **Odoo 19 addons** | `~\.claude\projects\D--Development-odoo19-server-addons\memory\` | MEMORY.md |
 
 ---
